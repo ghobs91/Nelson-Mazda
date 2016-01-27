@@ -65,10 +65,10 @@ nav {
     color: black;
     padding: 0 15px; }
   nav .brand-logo {
-    max-height: 100%;
-    max-width: 100%;
     font-weight: 400;
-    letter-spacing: -2px; }
+    letter-spacing: -2px;
+    height: 100%;
+    }
     nav .brand-logo .tighter {
       letter-spacing: -3px; }
   nav .side-nav {
@@ -413,7 +413,9 @@ blockquote {
 /*
 /**********************************************************************************************************************/
 .services {
-  margin-top: 3rem; }
+  margin-top: 3rem;
+text-align: center;
+}
   .services h5 {
     text-transform: uppercase;
     font-weight: 400;
@@ -439,6 +441,11 @@ blockquote {
       background-color: #1a237e; }
     .services .col i {
       color: #1a237e; }
+
+.locations {
+    
+    
+}
 
 /***********************************************************************************************************************
 /*
